@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;300;400;500;600;700&display=optional');
+/* @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;300;400;500;600;700&display=optional'); */
 
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Barlow';
+  font-family: 'Barlow', sans-serif;
 }
 
 a {

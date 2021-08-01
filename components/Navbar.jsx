@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 const Nav = styled.nav`
 background-color: #000000;
-padding: 0 1rem;
+padding: 0 2rem;
 line-height: 19px;
 font-size: 16px;
 letter-spacing: 0.08px;
@@ -26,7 +26,9 @@ button {
   cursor: pointer;
   font-weight: 500;
   font-size: 16px;
-  margin-left: .5rem;
+  /* margin-left: .5rem; */
+  transition: all ease-in-out .5s;
+
 }
 button:hover {
   background-color: #fff;
@@ -39,7 +41,7 @@ const NavRight = styled.ul`
   align-items: center;
 
   li {
-    margin: 0 .5rem;
+    margin: 0 .8rem;
   }
 
 `

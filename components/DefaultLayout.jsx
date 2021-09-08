@@ -9,7 +9,7 @@ export default function DefaultLayou({children}) {
     <>
       <Navbar />
       <CategoryBySport />
-      <main>
+      <main style={{paddingTop: '7rem'}}>
         {children}
       </main>
       <Footer />

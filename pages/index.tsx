@@ -19,9 +19,9 @@ const Label = styled.div`
 `
 export default function Home() {
   return (
-    <Container style={{}}>
+    <Container>
       <div style={{position:'relative'}}>
-        <Image src="/banner.png" alt="me" quality="80" width="1300" height="675" objectFit="cover" objectPosition="center" />
+        <Image src="/banner.png" alt="me" quality="80" width="1500" height="675" objectFit="cover" objectPosition="center" />
         <Label>
           <h4>Sweat-Wicking Performance</h4>
           <p>With a cropped silhouette for modern comfort that&apos;s made to move. </p>
